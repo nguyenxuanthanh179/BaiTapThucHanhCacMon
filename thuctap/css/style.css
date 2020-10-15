@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    border:1px solid green;
+}
+.d-flex{
+    display: flex;
+}
+.left{
+    width: 65%;
+    border:1px solid red;
+}
+.right{
+    width: 35%;
+    border: 1px solid blue;
+}
+/*============= header============== */
+.bg-light{
+    background-color: rgba(226, 226, 226, 0.335);;
+}
+header .bg-light ul{
+    list-style: none;
+}
+header .bg-light ul li:first-child{
+    padding-left: 0px;
+}
+header .bg-light ul li{
+    padding: 10px;
+}
+header .bg-light ul li>a{
+    border-right: 1px solid #ccc;
+    padding: 0px 10px;
+}
+header .bg-light ul li>a{
+    padding-left: 0px;
+}
+.bd-right{
+    border: none;
+}
+.english a>img{
+    width: 20px;
+    height: 12px;
+}
+/* logo - search */
+.width-left{
+    width: 30%;
+    background-color: aqua;
+}
+.width-right{
+    width: 70%;
+    background-color: chartreuse;
+}
+
+
+/* navbar */
+.menu-nav{
+    padding: 13px 0px;
+}
+.menu-nav .category {
+    margin-left: 10px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    padding: 13px;
+}
+.navbar ul li>a{
+    padding: 0px 10px;
+}
+
+/* banner */
+.content-banner{
+    text-align: center;
+    color: #fff;
+    border: 1px solid red;
+}
+
+.top{
+    padding: 40px 0px;
+    text-transform: uppercase;
+    color: rgba(204, 204, 204, 0.63);
+    font-size: 16px;
+}
+.center{
+    font-size: 30px;
+    padding: 5px 0px 30px;
+
+}
+.bottom{
+    color:  #ccc;
+}
+.bg-color{
+    height: 365px;
+    background: rgb(29,56,82);
+    background: radial-gradient(circle, rgba(29,56,82,0.9976365546218487) 0%, rgba(31,47,35,0.9248074229691877) 100%);
+}
+
+/*=========== Main ============ */
+/* left */
+.left-bottom{
+    margin-bottom: 120px;
+}
+.content-main{
+    border: 1px solid #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.content-main p.italic{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+.content-main div>p{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: #a6a6a6;
+}
+.content-main div>h6{
+    font-size: 20px;
+    color: rgba(131, 122, 122, 0.938);
+}
+
+.content-bottom h6{
+    font-size: 20px;
+    color: rgba(131, 122, 122, 0.938);
+}
+
+.content-bottom h6>span{
+    font-size: 17.7px;
+    color: #a6a6a6;
+}
+
+
+/* right */
+
+main.container{
+    margin-top: 70px;
+}
+
+.right-margin{
+    margin-left: 50px;
+}
+.search{
+    margin-bottom: 25px;
+}
+main input[type="text"]{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.border-bottom{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.border-bottom h3{
+    font-size: 30px;
+    padding-bottom: 12px;
+    color: rgb(87, 76, 76);
+}
+.post-font::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    color: rgb(57, 133, 143);
+}
+.content-space{
+    margin-top: 20px;
+}
+.title{
+    margin-left: 20px;
+    color: rgb(92, 89, 89);
+}
+.title h5{
+    font-size: 20px;
+}
+
+.title p{
+    color: #a6a6a6;
+}
+
+.categories{
+    margin-top: 50px;
+}
+.blog{
+    color: #a6a6a6;
+}
+
+/* =========== footer ============= */
+
+.contactUs,
+.information,
+.my-account,
+.instagram{
+    width: 25%;
+}
+.contactUs .d-flex>p{
+    margin-left: 10px;
+}
+.sub-menu{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.sub-menu>li{
+    margin: 15px 0px;
+}
+
+.instagram>div{
+    margin-bottom: 18px;
+}
+
+.margin-contact{
+    margin: 20px 0px;
+}
+.logo-social > .social{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.social>a{
+    position: absolute;
+    top:30%;
+    left: 30%;
+}
+
+/* end */
+.end-border{
+    border-top: 1px solid  rgba(226, 226, 226, 0.335);;
+    background-color: rgba(226, 226, 226, 0.335);
+    padding: 10px 0px;
+}
+.end-left{
+    width: 80%;
+}
+.end-left >span{
+    color: rgb(96, 215, 231);
+}
+.end-right{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
