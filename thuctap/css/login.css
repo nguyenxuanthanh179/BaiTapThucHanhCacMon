@@ -1,0 +1,72 @@
+.container{
+    width:500px;
+    height:500px;
+}
+.warpper{
+    height:100vh;
+}
+.box{
+    width:400px;
+    height:400px;
+}
+.position-absolute{
+    bottom:0%;
+}
+.rounded{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    text-align: center;
+    font-size: 2em;
+}
+.icontendangnhap, .iconmatkhau{
+    display: none;
+}
+input[type="text"]{
+    padding-left: 30px;
+    outline: none;
+}
+input[type="password"]{
+    padding-left: 30px;
+    outline: none;
+}
+@media only screen and (max-width: 800px){
+    .container{
+        width: 400px;
+        height: 400px
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+    }
+    .mt-5{
+        margin-top: 30px !important;
+    }
+    .mb-5{
+        margin-bottom: 30px !important;
+    }
+    .tendangnhap, .matkhau{
+        display: none;
+    }
+    .group-form1{
+        position: relative;
+    }
+    .group-form2{
+        position: relative;
+    }
+    .icontendangnhap, .iconmatkhau{
+        display: block;
+        position: absolute;
+        top: 12%;
+        left: 3%;
+        z-index: 1;
+        height: 10px;
+        width: 10px;
+    }
+    .txt-nhapten, .txt-pass{
+        padding-left: 30px !important;
+    }
+}

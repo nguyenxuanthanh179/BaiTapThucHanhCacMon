@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.wapper{
+    width: 700px ;
+}
+span{
+    color: red;
+}
+.btn{
+    margin-left: 8px;
+    padding: 0.25rem .7rem !important;
+}
+input[type="text"]{
+    font-size:14px;
+    outline: none
+}
+input[type="password"]{
+    font-size:14px;
+    outline: none
+}
+input[type="email"]{
+    font-size:14px;
+    outline: none
+}
+select{
+    outline: none;
+    font-size:14px;
+}
+button{
+    background-color: #fff;
+    outline: none !important;
+    border:none;
+}
